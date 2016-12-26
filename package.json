@@ -1,0 +1,27 @@
+{
+  "name": "redirapp",
+  "version": "1.0.0",
+  "description": "\"Serverless\" application to redirect visitors to mobile app stores based on their OS using AWS Lambda and API Gateway",
+  "main": "redirapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vstabile/redirapp.git"
+  },
+  "keywords": [
+    "redirect", "app", "link", "store", "android", "iOS",
+    "google", "play", "app store", "mobile", "serverless",
+    "aws", "lambda", "api gateway"
+  ],
+  "author": "Victor Stabile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vstabile/redirapp/issues"
+  },
+  "homepage": "https://github.com/vstabile/redirapp#readme",
+  "dependencies": {
+    "claudia-api-builder": "^2.3.1"
+  }
+}
